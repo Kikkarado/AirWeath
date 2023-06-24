@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AirWeath</string>
+    <string name="something_went_wrong">Something went wrong, please try again later</string>
+    <string name="network_connection_failure">Network connection failure</string>
+    <string name="current_location">Current location</string>
+    <string name="aqi_eu_good">The air quality is excellent</string>
+    <string name="aqi_eu_fair">The air quality is not bad</string>
+    <string name="aqi_eu_moderate">Air quality is moderate</string>
+    <string name="aqi_eu_poor">The air quality is bad</string>
+    <string name="aqi_eu_very_poor">The air quality is very bad</string>
+    <string name="aqi_eu_extremely_poor">The air quality is extremely bad</string>
+    <string name="aqi_us_good">The air quality is good</string>
+    <string name="aqi_us_moderate">Air quality is moderate</string>
+    <string name="aqi_us_unhealthy_for_sensitive_groups">Air quality is unhealthy for sensitive groups</string>
+    <string name="aqi_us_unhealthy">The air quality is bad</string>
+    <string name="aqi_us_very_unhealthy">The air quality is very unhealthy</string>
+    <string name="aqi_us_hazardous">The air quality is extremely dangerous</string>
+
+    <string name="temperature">Temperature</string>
+
+    <string name="clear_sky">Clear sky</string>
+    <string name="mainly_clear">Mainly clear</string>
+    <string name="partly_cloudy">Partly cloudy</string>
+    <string name="overcast">Overcast</string>
+    <string name="foggy">Foggy</string>
+    <string name="depositing_rime_fog">Depositing rime fog</string>
+    <string name="light_drizzle">Light drizzle</string>
+    <string name="moderate_drizzle">Moderate drizzle</string>
+    <string name="dense_drizzle">Dense drizzle</string>
+    <string name="slight_freezing_drizzle">Slight freezing drizzle</string>
+    <string name="dense_freezing_drizzle">Dense freezing drizzle</string>
+    <string name="slight_rain">Slight rain</string>
+    <string name="rainy">Rainy</string>
+    <string name="heavy_rain">Heavy rain</string>
+    <string name="heavy_freezing_rain">Heavy freezing rain</string>
+    <string name="slight_snowfall">Slight snowfall</string>
+    <string name="moderate_snowfall">Moderate snowfall</string>
+    <string name="heavy_snowfall">Heavy snowfall</string>
+    <string name="snow_grains">Snow grains</string>
+    <string name="slight_rain_showers">Slight rain showers</string>
+    <string name="moderate_rain_showers">Moderate rain showers</string>
+    <string name="violent_rain_showers">Violent rain showers</string>
+    <string name="light_snow_showers">Light snow showers</string>
+    <string name="heavy_snow_showers">Heavy snow showers</string>
+    <string name="moderate_thunderstorm">Moderate thunderstorm</string>
+    <string name="thunderstorm_with_slight_hail">Thunderstorm with slight hail</string>
+    <string name="thunderstorm_with_heavy_hail">Thunderstorm with heavy hail</string>
+
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="settings">Settings</string>
+    <string name="calculate_aqi">Calculate AQI</string>
+    <string name="statistics">Statistics</string>
+    <string name="search_place">Search place</string>
+    <string name="search">Search…</string>
+    <string name="add_place">Add place</string>
+    <string name="calculate">Calculate</string>
+    <string name="my_places">My places</string>
+
+    <string name="language">Language</string>
+    <string name="use_current_location">Use current location</string>
+    <string name="current_aqi_scheme">Current air quality scheme</string>
+    <string name="aqi_data_update_interval">Air quality data update interval (h)</string>
+    <string name="allow_aqi_alerts">Allow air quality alerts</string>
+    <string name="notification_interval">Notification interval (h)</string>
+
+    <string name="forecast">Forecast</string>
+    <string name="breathing_now">What am I breathing now</string>
+
+    <string name="particulate_matter">Particulate Matter</string>
+    <string name="carbon_monoxide">Carbon Monoxide</string>
+    <string name="nitrogen_dioxide">Nitrogen Dioxide</string>
+    <string name="sulphur_dioxide">Sulphur Dioxide</string>
+    <string name="ozone">Ozone</string>
+    <string name="dust">Dust</string>
+    <string name="ammonia">Ammonia</string>
+
+    <string name="choose_a_period">Choose a period</string>
+    <string name="today">Today</string>
+    <string name="next_days">Next days</string>
+
+    <plurals name="past_weeks">
+        <item quantity="one">1 week ago</item>
+        <item quantity="other">%1$d weeks ago</item>
+    </plurals>
+
+    <plurals name="past_month">
+        <item quantity="one">1 month ago</item>
+        <item quantity="other">%1$d months ago</item>
+    </plurals>
+
+    <string name="hours">Hours</string>
+    <string name="days">Days</string>
+
+    <string name="max_aqi">The maximum level of pollution during this period</string>
+    <string name="average_aqi">The average level of pollution for this period</string>
+    <string name="min_aqi">The minimum level of pollution during this period</string>
+
+    <string name="wait_please">Please, wait</string>
+
+    <string name="can_not_delete_favorite_place">You cannot delete a favorite place</string>
+
+    <string name="about_element">About the element</string>
+    <string name="about_pm25">PM2.5 refers to particles smaller than 2.5 micrometers in atmospheric air. These are the smallest pollutant particles that can be inhaled by a person. They arise as a result of air pollution by emissions from industry, motor vehicles, agriculture and other sources. Exposure to PM2.5 can have harmful effects on health, causing breathing problems, inflammation of the airways, cardiovascular disease and other problems. In addition, PM2.5 can pollute air and water, affecting environmental quality. Controlling the level of PM2.5 and reducing its emissions are important for maintaining air quality and the health of people and ecosystems.</string>
+    <string name="about_pm10">PM10 means particles smaller than 10 micrometers in atmospheric air. These pollutant particles are produced as a result of emissions from industry, traffic, construction and other sources. They can be inhaled by a person and have a negative effect on health, causing inflammation of the lungs, asthma attacks and other respiratory problems. In addition, PM10 pollutes the air, reduces visibility and can negatively affect the ecosystem and water resources. Controlling the level of PM10 and reducing their emissions are important for ensuring people\'s health and the quality of the environment.</string>
+    <string name="about_co">CO (carbon monoxide) is a colorless and odorless gas that results from the incomplete combustion of hydrocarbons and other fuel materials. Mainly, CO comes from car exhaust, industrial sources, tobacco and domestic heating systems. This gas is dangerous because it can push oxygen out of the blood and make it difficult to transfer it to organs and tissues. This can lead to serious health problems, including poisoning, impairment of respiratory and cardiovascular systems, headaches, dizziness and even death in severe cases. Controlling CO levels and minimizing CO emissions are important for ensuring a safe air environment and protecting human health.</string>
+    <string name="about_no2">NO2 (nitrogen dioxide) is a gas produced when fuel is burned, especially in car engines, power plants and industrial processes. A large concentration of NO2 in atmospheric air can have a harmful effect on human health. Inhalation of NO2 can cause airway irritation, lung inflammation, increased risk of respiratory and cardiovascular diseases, and impaired lung function. In addition, NO2 is a key component of smog and forms dangerous ground-level ozone. It can also negatively affect water quality and plant life. Controlling the level of NO2 and implementing strategies to reduce its emissions are important for maintaining air quality and protecting public health.</string>
+    <string name="about_so2">SO2 (sulfur dioxide) is a gas produced during the combustion of hydrocarbons, coal, and other sulfur-containing materials, especially in industrial processes and power plants. High levels of SO2 in atmospheric air are a serious problem because this gas can have harmful effects on health and the environment. Inhalation of SO2 can cause irritation of the respiratory tract, inflammation of the lungs, spasms of the bronchi and deterioration of the functions of the respiratory system. SO2 can also cause acid rain, which negatively affects plant life, soil resources, and aquatic ecosystems. Controlling the level of SO2 and implementing effective gas cleaning technologies are important to reduce its emissions and ensure clean air and a healthy environment.</string>
+    <string name="about_o3">O3 (ozone) is a gas that is formed in the atmosphere by solar radiation and chemical reactions with other pollutants such as nitrogen oxides and volatile organic compounds. In the lower atmosphere (troposphere), O3 is a harmful pollutant. When binding to the respiratory tract, O3 can cause irritation and inflammation, contributing to the development of asthma and other respiratory diseases. High levels of O3 can also negatively affect plant life, reducing their photosynthetic activity and productivity. O3 is a key component of smog, especially in warm and sunny climates. To reduce the formation of O3, it is necessary to control the emissions of its precursors, such as nitrogen oxides and volatile organic compounds, as well as to promote the efficient operation and development of alternative energy sources and transport with a low content of pollutants.</string>
+    <string name="about_dust">Dust in the atmosphere consists of solid particles that can be of organic or inorganic origin. This type of air pollution includes dust, dust storms, volcanic ash, and other mineral particles that can rise into the air and travel great distances. Dust can have a harmful effect on the health of people, especially those with respiratory problems. Inhaling dust can irritate the respiratory tract and contribute to the development of asthma, allergies and other diseases. In addition, dust can pollute air, water and soil, affecting the ecological balance and health of ecosystems. Controlling the level of dust and developing strategies to minimize its emissions are important for preserving air quality and the health of people and the environment.</string>
+    <string name="about_nh3">NH3 (ammonia) is a gaseous substance that is formed as a result of the decomposition of organic matter, as well as emissions from agricultural activities, industry and the use of fertilizers. High levels of NH3 in the atmosphere can have a negative impact on human health and the environment. Inhaling ammonia can irritate the airways and cause breathing problems, especially in people with respiratory conditions. In addition, ammonia can cause acid rain and affect aquatic ecosystems. Apart from agricultural applications, controlling the levels of NH3 in the atmosphere and using effective technologies to minimize its emissions are important steps to ensure clean air and maintain ecological balance.</string>
+
+    <string name="recommendation">Recommendation</string>
+    <string name="aqi_good">The air quality is excellent! This means that you can feel comfortable and not worry about your health. Continue an active lifestyle and do not forget about a healthy diet to strengthen your immunity. But still monitor the air quality and your well-being. If you notice any symptoms or experience changes, be alert and seek the necessary medical attention. Also, do not forget to periodically update information about air quality to stay informed and do everything necessary to preserve your health and the health of your loved ones.</string>
+    <string name="aqi_moderate">Moderate air quality. This means that the air may be slightly polluted, but is generally acceptable for most people. It is worth continuing a healthy lifestyle and diet, which help to keep the immune system in good condition. However, if you experience certain symptoms or are particularly sensitive to air pollution, be careful and monitor your health. Pay attention to air quality updates and follow healthy living tips. Remember that your well-being is of great importance, so if necessary, contact medical professionals and follow appropriate measures to preserve your health.</string>
+    <string name="aqi_unhealthy_for_sensitive_groups">Unhealthy air quality for people who belong to the group of people with increased sensitivity. This means that air pollution can have a negative effect on your health, especially if you have respiratory problems or chronic diseases. At such moments, it is important to be especially attentive and take measures to protect your health. Limit prolonged outdoor exposure, especially in areas with high levels of pollution. Consider using masks or respirators if recommended. Keep an eye on the air quality index and weather updates. Talk to your doctor and follow his or her advice on the best ways to protect your lungs and overall health.</string>
+    <string name="aqi_unhealthy">Unhealthy air quality. This means that air pollution levels are elevated and can have a harmful effect on your health and overall air quality. In such conditions, it is important to take additional measures to ensure your well-being. It is recommended to limit being outside and avoid physical exertion outdoors. Wear masks or respirators, especially if you have air pollution sensitivity or respiratory problems. Stay tuned for air quality forecasts and pollution information. If you experience symptoms such as coughing, eye irritation or difficulty breathing, seek medical attention and follow their advice. Try to stay indoors with clean air, such as homes or offices with effective ventilation and air filtration systems. Health is a priority, so you should be careful and follow the recommendations to minimize the impact of unhealthy air quality on yourself and others.</string>
+    <string name="aqi_very_unhealthy">Very unhealthy air quality. This means that the level of air pollution is extremely high and can pose a serious threat to your health. In such conditions, it is important to take immediate measures to protect yourself and your health. Stay indoors if possible and avoid any physical activity outdoors. Use highly effective masks or respirators that can filter toxic substances from the air. Keep an eye on air quality forecasts and the location of the nearest medical aid. If you experience serious symptoms, such as a severe cough, difficulty breathing, or worsening health, seek medical attention immediately. In such conditions, it is recommended to follow all instructions of health authorities and stay in a safe environment where the air is of better quality.</string>
+    <string name="aqi_hazardous">Extremely dangerous air quality. This means that the level of air pollution is extremely high and poses a serious threat to the health of all people. In such conditions, it is necessary to take immediate and extreme measures to ensure one\'s own safety. Stay indoors and don\'t go out even for a short period of time. Ensure effective sealing of premises to avoid ingress of contaminated air. Use highly effective masks or respirators that provide reliable protection against toxic substances in the air. Avoid any physical activity outdoors and limit exposure to polluted air. Stay in touch with your loved ones and follow the instructions of the health authorities. In the event of serious symptoms such as a severe cough, very difficult breathing or a significant deterioration in health, seek medical attention immediately. Remember that safety is the most important priority and all necessary measures must be taken to ensure your well-being in such dangerous conditions.</string>
+
+    <string name="exceeding_ammonia_standards">Exceeding ammonia standards</string>
+    <string name="warrning_amonnia">Currently, we have an increased level of ammonia in the air, which can be harmful to health. It is recommended to limit going outside, wear a protective mask and avoid direct contact with ammonia. Provide well-ventilated areas and follow the instructions of local health authorities. If negative symptoms occur, seek medical help. Be careful and protect your health in the presence of elevated levels of ammonia in the air.</string>
+
+    <string name="about_aqi">\t\tAQI (Air Quality Index) is an air quality index used to assess the level of air pollution and its impact on human health. The AQI takes several major air pollutants such as PM2.5, PM10, CO, NO2, SO2 and O3 into a single numerical value. The higher the AQI value, the worse the air quality and the greater the health risk. AQI provides important information to the public and authorities, helping them take action to reduce air pollution and ensure community safety.</string>
+    <string name="about_aqi_1">\t\tUSAQI (United States Air Quality Index) and EUAQI (European Air Quality Index) are versions of the Air Quality Index developed for the United States of America and the European Union, respectively. These indices are used to assess air quality according to national and regional standards and are calculated based on specific parameters of air pollution that differ in different countries and regions.</string>
+    <string name="about_aqi_2">\t\tThe USAQI and EUAQI take levels of various air pollutants, such as PM2.5, PM10, NO2, SO2, CO, and O3, and convert them into a numerical index or category that reflects air quality. This helps the public and authorities assess the current state of the air and take appropriate measures to protect the health of the community.</string>
+    <string name="about_aqi_3">\t\tUSAQI and EUAQI provide important information about air quality at the local level, allowing people to avoid exposure to air pollution and take steps to protect their health. In addition, these indices are used to monitor air quality, identify pollution trends, and establish long-term strategies to reduce air pollution.</string>
+    <string name="about_aqi_4">\t\tThe European Air Quality Index (AQI) ranges from 0–20 (good), 20–40 (fair), 40–60 (moderate), 60–80 (poor), 80–100 (very poor) and exceeds 100 for extremely poor conditions.</string>
+    <string name="about_aqi_5">\t\tThe United States Air Quality Index (AQI) ranges from 0–50 (good), 51–100 (moderate), 101–150 (unhealthy for sensitive groups), 151–200 (unhealthy), 201–300 (very unhealthy) and 301–500 (hazardous).</string>
+
+</resources>

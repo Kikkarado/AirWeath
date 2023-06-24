@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "428015528114",
+    "firebase_url": "https://airweath-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "airweath",
+    "storage_bucket": "airweath.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428015528114:android:720c574f5a177f7d6b41ab",
+        "android_client_info": {
+          "package_name": "ua.airweath"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428015528114-3thljkp3csv0pl373nssh3tgnsci86fi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ua.airweath",
+            "certificate_hash": "75fdc2a4f3234d71dbe22e37cc2b2e17f753a6fe"
+          }
+        },
+        {
+          "client_id": "428015528114-2jkr07mlpkdl1guhs7d93f7djt0knvei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKAUNZUVOHb9Y2Pwad2Hss3bGL-a9QttM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428015528114-2jkr07mlpkdl1guhs7d93f7djt0knvei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

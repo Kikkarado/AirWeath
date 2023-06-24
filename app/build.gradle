@@ -1,0 +1,201 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
+    id "com.google.protobuf" version "0.8.17"
+    id 'kotlinx-serialization'
+    id 'com.google.dagger.hilt.android'
+    id 'com.google.gms.google-services'
+    id "org.jetbrains.kotlin.kapt"
+    id "kotlin-parcelize"
+}
+
+/*def localProperties = new Properties()
+localProperties.load(new FileInputStream(rootProject.file("local.properties")))*/
+
+android {
+    namespace 'ua.airweath'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "ua.airweath"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary true
+        }
+
+        /*buildConfigField("string", "GEOCODING_KEY", localProperties['geocodingKey'])
+        buildConfigField("string", "WEB_CLIENT_ID", localProperties['webClientId'])*/
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        coreLibraryDesugaringEnabled true
+
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        compose true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion compose_compiler_version
+    }
+    packagingOptions {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
+            excludes += '/META-INF/INDEX.LIST'
+        }
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.10.1'
+    implementation 'androidx.activity:activity-compose:1.7.2'
+    implementation "androidx.compose.ui:ui:$compose_ui_version"
+    implementation "androidx.compose.ui:ui-tooling-preview:$compose_ui_version"
+    implementation "androidx.compose.material:material:$compose_ui_version"
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_ui_version"
+    debugImplementation "androidx.compose.ui:ui-tooling:$compose_ui_version"
+    debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_ui_version"
+    implementation "androidx.compose.material:material-icons-extended:$compose_ui_version"
+
+
+    implementation 'com.jakewharton.timber:timber:5.0.1'
+
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.2.2'
+
+    //Chart
+    implementation "com.patrykandpatrick.vico:compose:1.6.5"
+
+    //proto datastore
+    implementation "androidx.datastore:datastore:1.0.0"
+    implementation  "androidx.datastore:datastore-core:1.0.0"
+    implementation  "com.google.protobuf:protobuf-javalite:3.23.0"
+
+    //Compose ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1"
+    implementation 'androidx.lifecycle:lifecycle-runtime-compose:2.6.1'
+
+    //настройка системной шторки
+    implementation "com.google.accompanist:accompanist-systemuicontroller:0.15.0"
+
+    //Navigation compose
+    implementation "androidx.navigation:navigation-compose:2.6.0"
+    //Navigation animation
+    implementation "com.google.accompanist:accompanist-navigation-animation:0.25.1"
+
+    //Lifecycle
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.6.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.1'
+    implementation 'androidx.lifecycle:lifecycle-service:2.6.1'
+    implementation "androidx.compose.runtime:runtime-livedata:$compose_ui_version"
+    implementation "androidx.compose.runtime:runtime:$compose_ui_version"
+    implementation "androidx.compose.runtime:runtime-saved-instance-state:1.0.0-alpha11"
+
+    //Maps compose
+    implementation 'com.google.maps.android:maps-compose:2.11.4'
+
+    //GMS
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+
+    implementation 'com.google.android.libraries.places:places:3.1.0'
+
+    //Firebase
+    implementation platform('com.google.firebase:firebase-bom:31.1.1')
+    implementation 'com.google.firebase:firebase-messaging-ktx:23.1.2'
+    implementation 'com.google.firebase:firebase-auth-ktx:22.0.0'
+    implementation 'com.google.firebase:firebase-firestore-ktx:24.6.1'
+    implementation 'com.google.firebase:firebase-functions-ktx:20.3.1'
+
+    //PolyUtil
+    implementation 'com.google.maps.android:android-maps-utils:3.4.0'
+
+    //Разрешения приложения
+    implementation "com.google.accompanist:accompanist-permissions:0.25.1"
+
+    //Splash screen
+    implementation "androidx.core:core-splashscreen:1.0.1"
+
+    //Lottie animation
+    implementation 'com.airbnb.android:lottie-compose:6.0.0'
+
+    //Work Manager dependency
+    implementation 'androidx.work:work-runtime-ktx:2.8.1'
+
+    implementation "androidx.startup:startup-runtime:1.1.1"
+
+    //Ktor
+    implementation "io.ktor:ktor-client-core:$ktor_version"
+    implementation "io.ktor:ktor-client-android:$ktor_version"
+    implementation "io.ktor:ktor-client-serialization:$ktor_version"
+    implementation "io.ktor:ktor-client-logging:$ktor_version"
+    implementation "io.ktor:ktor-serialization-kotlinx-json:$ktor_version"
+    implementation "io.ktor:ktor-client-content-negotiation:$ktor_version"
+    implementation "io.ktor:ktor-client-auth:$ktor_version"
+    implementation 'ch.qos.logback:logback-classic:1.4.0'
+
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1"
+
+    // Room components
+    implementation "androidx.room:room-runtime:2.5.1"
+    kapt "androidx.room:room-compiler:2.5.1"
+    implementation "androidx.room:room-ktx:2.5.1"
+    androidTestImplementation "androidx.room:room-testing:2.5.1"
+
+    //Hilt
+    implementation "com.google.dagger:hilt-android:2.46.1"
+    kapt "com.google.dagger:hilt-compiler:2.46.1"
+    implementation "androidx.hilt:hilt-navigation-compose:1.0.0"
+    implementation 'androidx.hilt:hilt-work:1.0.0'
+    kapt 'androidx.hilt:hilt-compiler:1.0.0'
+
+    implementation 'com.google.android.gms:play-services-auth:20.5.0'
+    implementation 'com.google.android.gms:play-services-auth-api-phone:18.0.1'
+
+    //Pager
+    implementation "com.google.accompanist:accompanist-pager:0.28.0"
+    implementation "com.google.accompanist:accompanist-pager-indicators:0.28.0"
+
+    implementation "org.jetbrains.kotlin:kotlin-reflect:1.8.21"
+
+}
+
+protobuf {
+    protoc {
+        artifact = "com.google.protobuf:protoc:3.14.0"
+    }
+
+    // Generates the java Protobuf-lite code for the Protobufs in this project. See
+    // https://github.com/google/protobuf-gradle-plugin#customizing-protobuf-compilation
+    // for more information.
+    generateProtoTasks {
+        all().each { task ->
+            task.builtins {
+                java {
+                    option 'lite'
+                }
+            }
+        }
+    }
+}

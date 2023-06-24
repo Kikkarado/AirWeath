@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "ua.airweath.datastore";
+option java_multiple_files = true;
+
+message SettingsProto {
+
+  message UserData {
+    string userId = 1;
+    string name = 2;
+    string pictureUrl = 3;
+    string mail = 4;
+    bool isGoogleAuth = 5;
+  }
+
+  UserData userDara = 1;
+  bool isFirstStart = 2;
+  string locale = 3;
+  bool isCurrentLocationUsed = 4;
+  string aqiType = 5;
+  int32 updateTime = 6;
+  bool notifyEnabled = 7;
+  int32 notifyTime = 8;
+
+}
